@@ -5,9 +5,8 @@ public class Input {
     public static void main(String[] args) {
         int num;
 
-
+       do{
         System.out.println("Введи число");
-        do {
             Scanner input = new Scanner(System.in);
             num = input.nextInt();
             if (num % 2 == 0)
