@@ -12,12 +12,10 @@ public class ComparingTwoNumbers {
                 System.out.println(number1 + " больше " + number2);
             } else if (number1 < number2) {
                 System.out.println(number1 + " меньше " + number2);
+            } else {
+                System.out.println("значения равны");
             }
-                else {
-                    System.out.println("значения равны");
-                }
-            }
-            while (true) ;
+        } while (true);
 
     }
 }
